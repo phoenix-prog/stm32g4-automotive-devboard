@@ -62,6 +62,8 @@ This board is designed from the ground up for **in-vehicle development and testi
 
 - [x] GitHub repo created
 - [x] KiCad project initialized
+- [x] Folder structure
+- [x] README with timeline
 - [ ] Block diagram
 - [ ] BOM with part availability
 - [ ] Power supply schematic
