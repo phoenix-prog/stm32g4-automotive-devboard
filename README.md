@@ -37,3 +37,66 @@ This board is designed from the ground up for **in-vehicle development and testi
 3. **OBD-II Reader** - Query vehicle diagnostics (RPM, speed, temps, codes)
 
 ## Repository Structure
+
+/hardware           - KiCad schematic, PCB layout, BOM, Gerbers
+/datasheets       - Component datasheets
+/firmware           - STM32CubeIDE projects
+/examples         - Example firmware (CAN echo, logger, OBD-II)
+/docs               - Getting started guide, design notes, test reports
+/images             - Photos of assembled boards
+
+## Development Timeline
+
+| Week | Phase | Deliverable |
+|------|-------|-------------|
+| 1-2 | Schematic Design | Complete schematic, BOM with availability check |
+| 3-4 | PCB Layout | 4-layer board layout, DRC clean, Gerbers |
+| 5-6 | Manufacturing & Assembly | Order PCBs, assemble, bring-up testing |
+| 7-8 | Debug & Rework | Fix hardware issues, test all peripherals |
+| 9 | Firmware Example 1 | CAN echo/bridge working |
+| 10 | Firmware Example 2 | CAN datalogger working |
+| 11 | Firmware Example 3 | OBD-II reader working |
+| 12 | Documentation & Release | Complete docs, publish v1.0 |
+
+## Current Progress
+
+- [x] GitHub repo created
+- [x] KiCad project initialized
+- [ ] Block diagram
+- [ ] BOM with part availability
+- [ ] Power supply schematic
+- [ ] MCU schematic
+- [ ] Peripheral schematics (CAN, USB, SD, RTC)
+- [ ] PCB layout
+- [ ] Manufacturing
+- [ ] Bring-up
+- [ ] Firmware examples
+- [ ] Documentation
+
+## Bill of Materials
+
+See [hardware/bom.csv](hardware/bom.csv) for complete part list (in progress)
+
+**Estimated Cost per Board:** ₹980 (~$12 USD)  
+**PCB Cost (4-layer, qty 5):** ₹600 (~$7 USD)
+
+## License
+
+MIT License - see [LICENSE](LICENSE) file
+
+**TL;DR:** Use this design for anything (commercial or personal), just keep the license notice.
+
+## Author
+
+**Vaibhav** - Hardware Design Engineer  
+Pune, India
+
+- GitHub: [@phoenix-prog](https://github.com/phoenix-prog)
+- Project: Automotive embedded systems, CAN bus, EV charging infrastructure
+
+---
+
+**Started:** April 25, 2026  
+**Last Updated:** April 25, 2026
+
+*This is a learning project. Expect bugs in v1.0. All feedback welcome via GitHub Issues.*
