@@ -416,13 +416,25 @@
         "uuid": "3dc7e506-5184-43b2-b13f-30059021b119"
       }
     ],
-    "used_designators": "U1-3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "3dc7e506-5184-43b2-b13f-30059021b119",
       "stm32g4-automotive-devboard"
+    ],
+    [
+      "258ad4e6-a941-47be-abac-13abb60bc9f6",
+      "Power"
+    ],
+    [
+      "1bca88db-3647-41bc-b143-cefb9740d63b",
+      "MCU_Core"
+    ],
+    [
+      "2325119b-71e5-4b1d-aa36-45e9609d9726",
+      "Communication"
     ]
   ],
   "text_variables": {},
