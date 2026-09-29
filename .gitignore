@@ -1,0 +1,21 @@
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+~*.lck
+_autosave-*
+*.bak
+\#auto_saved_files\#
+
+# Firmware build output
+build/
+Debug/
+Release/
+*.o
+*.elf
+*.map
+
+# OS
+.DS_Store
+Thumbs.db
